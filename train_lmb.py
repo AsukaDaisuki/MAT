@@ -54,7 +54,6 @@ parser.add_argument('--weight-decay', '--wd', default=1e-5, type=float,
                     metavar='W', help='weight decay (default: 1e-5)')
 parser.add_argument("--T", type=float)
 parser.add_argument('--train_dataset', required=True, type=str)
-parser.add_argument('--val_dataset', type=str)
 parser.add_argument('--val_freq', type=int,default = 4)
 
 parser.add_argument('--modelname', default='gated3d', type=str,
