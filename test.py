@@ -54,9 +54,6 @@ parser.add_argument('--modelname', default='off', type=str,
                     help='name of the model to load')
 parser.add_argument('--cuda', default="on", type=str, 
                     help='switch on/off cuda option (default: off)')
-
-parser.add_argument('--direc', default='./results', type=str,
-                    help='directory to save')
 parser.add_argument('--crop', type=int, default=None)
 parser.add_argument('--device', default='cuda', type=str)
 parser.add_argument('--loaddirec', default='load', type=str)
@@ -65,8 +62,6 @@ parser.add_argument('--depth', type=int, default=None)
 parser.add_argument('--kfold', type=int, default=1)
 args = parser.parse_args()
 
-direc = args.direc
-direc = args.direc
 modelname = args.modelname
 imgsize = args.imgsize
 loaddirec = args.loaddirec
