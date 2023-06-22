@@ -1,5 +1,5 @@
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
-# Code for MedT
+# Code for MAT
 import medpy.metric.binary as mmb
 import torch
 import lib
